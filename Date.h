@@ -36,7 +36,18 @@ class Date {
 
     void SetYear (int y);
 
+    std::string toString() const;
 
+    bool operator<(const Date& other) const;
+
+    bool operator>(const Date& other) const;
+
+    bool operator==(const Date& other) const;
+
+private:
+    int day;
+    int month;
+    int year;
 };
 
 
