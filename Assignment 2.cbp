@@ -34,6 +34,8 @@
 		</Compiler>
 		<Unit filename="Date.cpp" />
 		<Unit filename="Date.h" />
+		<Unit filename="Time.cpp" />
+		<Unit filename="Time.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
