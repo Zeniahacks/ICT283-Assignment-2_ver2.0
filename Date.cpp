@@ -17,3 +17,27 @@ void Date::SetYear(int y) { year = y; }
 std::string Date::toString() const {
     return std::to_string(day) + "/" + std::to_string(month) + "/" + std::to_string(year);
 }
+
+bool Date::operator<(const Date& other) const {
+    if (year != other.year)
+        return year < other.year;
+    if (month != other.month)
+        return month < other.month;
+
+    return day < other.day;
+}
+
+bool Date::operator>(const Date& other) const {
+    if (year != other.year)
+        return year > other.year;
+    if (month != other.month)
+        return month > other.month;
+
+    return day > other.day;
+}
+
+bool Date::operator==(const Date& other) const {
+    return day == other.day &&
+    month == other.month &&
+    year == other.year;
+}
