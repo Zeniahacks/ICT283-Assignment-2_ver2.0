@@ -4,9 +4,10 @@
 #include <sstream>
 
 Vector<std::string> DataLoader::splitString(const std::string& str, char delimiter) {
-    Vector<std::string> tokens(10); // Start with a small buffer
+    Vector<std::string> tokens;
     std::stringstream ss(str);
     std::string token;
+
     while (std::getline(ss, token, delimiter)) {
         tokens.push_back(token);
     }
@@ -49,7 +50,7 @@ bool DataLoader::loadData(const std::string& configFilename, Database& db) {
         Vector<std::string> headers = splitString(line, ',');
         int wastIdx = -1, speedIdx = -1, srIdx = -1, tempIdx = -1;
 
-        for (int i = 0; i < headers.size(); ++i) {
+        for (size_t i = 0; i < headers.size(); ++i) {
             if (headers[i] == "WAST") wastIdx = i;
             else if (headers[i] == "S") speedIdx = i;
             else if (headers[i] == "SR") srIdx = i;
@@ -79,13 +80,13 @@ bool DataLoader::loadData(const std::string& configFilename, Database& db) {
             if (dateParts.size() != 3 || timeParts.size() < 2) continue;
 
             try {
-                // FIXED: Restored brackets,, for date and time parts
-                int day = std::stoi(dateParts);
-                int month = std::stoi(dateParts);
-                int year = std::stoi(dateParts);
-                int hour = std::stoi(timeParts);
-                int minute = std::stoi(timeParts);
-                int second = (timeParts.size() >= 3) ? std::stoi(timeParts) : 0;
+                int day = std::stoi(dateParts[0]);
+                int month = std::stoi(dateParts[1]);
+                int year = std::stoi(dateParts[2]);
+
+                int hour = std::stoi(timeParts[0]);
+                int minute = std::stoi(timeParts[1]);
+                int second = (timeParts.size() >= 3) ? std::stoi(timeParts[2]) : 0;
 
                 float speed = -999.0f, temp = -999.0f, sr = -999.0f;
 
@@ -98,8 +99,8 @@ bool DataLoader::loadData(const std::string& configFilename, Database& db) {
                 WeatherRecord* rec = new WeatherRecord(Date(day, month, year), Time(hour, minute, second), speed, temp, sr);
 
                 // Attempt to insert. If it is a duplicate, Database::insertRecord handles the safe deletion.
-                if (db.insertRecord(rec)) {
-                    recordsLoaded++;
+                if (!db.insertRecord(rec)) {
+                    delete rec;
                 }
 
             } catch (...) {

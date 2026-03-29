@@ -1,7 +1,13 @@
 #include <iostream>
 #include "../MathUtils.h"
+#include <cmath>
 
 using namespace std;
+
+// Helper function for safe float comparison
+bool isEqual(float a, float b) {
+    return fabs(a - b) < 0.0001f;
+}
 
 int main() {
     cout << "--- Testing MathUtils Class ---\n";

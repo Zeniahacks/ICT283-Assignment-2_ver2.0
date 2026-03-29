@@ -3,6 +3,7 @@
 
 float MathUtils::calcMean(const Vector<float>& data) {
     if (data.empty()) return 0.0f;
+
     float sum = 0.0f;
     for (int i = 0; i < data.size(); ++i) {
         sum += data[i];
@@ -12,6 +13,7 @@ float MathUtils::calcMean(const Vector<float>& data) {
 
 float MathUtils::calcStdDev(const Vector<float>& data, float mean) {
     if (data.size() <= 1) return 0.0f;
+
     float sumSq = 0.0f;
     for (int i = 0; i < data.size(); ++i) {
         sumSq += (data[i] - mean) * (data[i] - mean);
