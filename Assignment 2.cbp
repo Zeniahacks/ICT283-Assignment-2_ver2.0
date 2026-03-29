@@ -55,7 +55,10 @@
 			<Option compile="0" />
 			<Option link="0" />
 		</Unit>
-		<Unit filename="Unit Tests/MathUtilsTest.cpp" />
+		<Unit filename="Unit Tests/MathUtilsTest.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
 		<Unit filename="Unit Tests/TimeTest.cpp">
 			<Option compile="0" />
 			<Option link="0" />
@@ -69,12 +72,11 @@
 			<Option link="0" />
 		</Unit>
 		<Unit filename="Vector.h" />
+		<Unit filename="WeatherProcessor.cpp" />
+		<Unit filename="WeatherProcessor.h" />
 		<Unit filename="WeatherRecord.cpp" />
 		<Unit filename="WeatherRecord.h" />
-		<Unit filename="main.cpp">
-			<Option compile="0" />
-			<Option link="0" />
-		</Unit>
+		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

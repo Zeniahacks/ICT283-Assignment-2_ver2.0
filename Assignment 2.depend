@@ -70,7 +70,7 @@
 	"../MathUtils.h"
 	<cmath>
 
-1774779565 source:c:\users\elson\desktop\ict283 submission folder\ict283_assignment2_ang_kai_jun_elson_35771004\assignment 2\dataloader.cpp
+1774779913 source:c:\users\elson\desktop\ict283 submission folder\ict283_assignment2_ang_kai_jun_elson_35771004\assignment 2\dataloader.cpp
 	"DataLoader.h"
 	<iostream>
 	<fstream>
@@ -78,6 +78,18 @@
 
 1774776935 c:\users\elson\desktop\ict283 submission folder\ict283_assignment2_ang_kai_jun_elson_35771004\assignment 2\dataloader.h
 	"Vector.h"
+	"Database.h"
+	<string>
+
+1774788351 source:c:\users\elson\desktop\ict283 submission folder\ict283_assignment2_ang_kai_jun_elson_35771004\assignment 2\weatherprocessor.cpp
+	"WeatherProcessor.h"
+	"DataLoader.h"
+	"MathUtils.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1774788317 c:\users\elson\desktop\ict283 submission folder\ict283_assignment2_ang_kai_jun_elson_35771004\assignment 2\weatherprocessor.h
 	"Database.h"
 	<string>
 
