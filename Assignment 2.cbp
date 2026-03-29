@@ -33,10 +33,14 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="Bst.h" />
+		<Unit filename="DataLoader.cpp" />
+		<Unit filename="DataLoader.h" />
 		<Unit filename="Database.cpp" />
 		<Unit filename="Database.h" />
 		<Unit filename="Date.cpp" />
 		<Unit filename="Date.h" />
+		<Unit filename="MathUtils.cpp" />
+		<Unit filename="MathUtils.h" />
 		<Unit filename="Time.cpp" />
 		<Unit filename="Time.h" />
 		<Unit filename="Unit Tests/BstTest.cpp">
@@ -55,7 +59,10 @@
 			<Option compile="0" />
 			<Option link="0" />
 		</Unit>
-		<Unit filename="Unit Tests/VectorTest.cpp" />
+		<Unit filename="Unit Tests/VectorTest.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
 		<Unit filename="Unit Tests/WeatherRecordTest.cpp">
 			<Option compile="0" />
 			<Option link="0" />
