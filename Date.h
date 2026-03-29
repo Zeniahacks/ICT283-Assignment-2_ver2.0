@@ -15,7 +15,7 @@
  */
 
 class Date {
-
+public:
     /**
      * @brief Default constructor. Initializes to 1 January 2000.
      */

@@ -7,7 +7,7 @@ WeatherRecord::WeatherRecord(const Date& d, const Time& t, float speed, float te
     d(d), t(t), speed(speed), temp(temp), solarRad(solarRad) {}
 
 Date WeatherRecord::getDate() const { return d; }
-Time WeatherRecord::getTime() const ( return t; )
+Time WeatherRecord::getTime() const { return t; }
 float WeatherRecord::getSpeed() const { return speed; }
 float WeatherRecord::getTemp() const { return temp; }
 float WeatherRecord::getSolarRad() const { return solarRad; }
