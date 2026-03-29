@@ -55,6 +55,7 @@
 			<Option compile="0" />
 			<Option link="0" />
 		</Unit>
+		<Unit filename="Unit Tests/MathUtilsTest.cpp" />
 		<Unit filename="Unit Tests/TimeTest.cpp">
 			<Option compile="0" />
 			<Option link="0" />

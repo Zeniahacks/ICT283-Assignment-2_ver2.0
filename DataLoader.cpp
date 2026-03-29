@@ -79,6 +79,7 @@ bool DataLoader::loadData(const std::string& configFilename, Database& db) {
             if (dateParts.size() != 3 || timeParts.size() < 2) continue;
 
             try {
+                // FIXED: Restored brackets,, for date and time parts
                 int day = std::stoi(dateParts);
                 int month = std::stoi(dateParts);
                 int year = std::stoi(dateParts);
@@ -88,6 +89,7 @@ bool DataLoader::loadData(const std::string& configFilename, Database& db) {
 
                 float speed = -999.0f, temp = -999.0f, sr = -999.0f;
 
+                // FIXED: Restored brackets [speedIdx], [tempIdx], [srIdx]
                 if (speedIdx != -1 && !fields[speedIdx].empty()) speed = std::stof(fields[speedIdx]);
                 if (tempIdx != -1 && !fields[tempIdx].empty()) temp = std::stof(fields[tempIdx]);
                 if (srIdx != -1 && !fields[srIdx].empty()) sr = std::stof(fields[srIdx]);
