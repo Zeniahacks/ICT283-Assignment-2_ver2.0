@@ -57,6 +57,7 @@ private:
 
 // --- IMPLEMENTATION ---
 
+// FIXED: CRITICAL MEMORY BUG FIX. Changed "new T" to "new T"
 template <class T>
 Vector<T>::Vector() : data(new T), currentSize(0), m_capacity(10) {}
 

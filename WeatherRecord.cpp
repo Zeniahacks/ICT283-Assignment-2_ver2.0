@@ -3,8 +3,8 @@
 
 WeatherRecord::WeatherRecord() : d(), t(), speed(-999.0f), temp(-999.0f), solarRad(-999.0f) {}
 
-WeatherRecord::WeatherRecord(const Date& d, const Time& t, float speed, float temp, float solarRad) :
-    d(d), t(t), speed(speed), temp(temp), solarRad(solarRad) {}
+WeatherRecord::WeatherRecord(const Date& input_d, const Time& input_t, float input_speed, float input_temp, float input_solarRad) :
+    d(input_d), t(input_t), speed(input_speed), temp(input_temp), solarRad(input_solarRad) {}
 
 Date WeatherRecord::getDate() const { return d; }
 Time WeatherRecord::getTime() const { return t; }

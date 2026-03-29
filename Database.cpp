@@ -7,11 +7,11 @@
 // This standalone function matches the typedef void (*TraversalFunction)(const T&);
 // defined in the Bst. It is passed into the BST traversals as a callback.
 // --------------------------------------------------------------------------
-void printYear(const int& year) {
+static void printYear(const int& year) {
     std::cout << "- " << year << std::endl;
 }
 
-Database::Database() {}
+Database::Database() : dataStore(), loadedYears() {}
 
 Database::~Database() {
     // Memory Management: We must iterate through every vector in the map
