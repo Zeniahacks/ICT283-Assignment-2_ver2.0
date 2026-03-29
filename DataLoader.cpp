@@ -99,8 +99,8 @@ bool DataLoader::loadData(const std::string& configFilename, Database& db) {
                 WeatherRecord* rec = new WeatherRecord(Date(day, month, year), Time(hour, minute, second), speed, temp, sr);
 
                 // Attempt to insert. If it is a duplicate, Database::insertRecord handles the safe deletion.
-                if (!db.insertRecord(rec)) {
-                    delete rec;
+                if (db.insertRecord(rec)) {
+                        recordsLoaded++;
                 }
 
             } catch (...) {
