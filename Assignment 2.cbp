@@ -32,10 +32,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Database.cpp" />
+		<Unit filename="Database.h" />
 		<Unit filename="Date.cpp" />
 		<Unit filename="Date.h" />
 		<Unit filename="Time.cpp" />
 		<Unit filename="Time.h" />
+		<Unit filename="Vector.h" />
 		<Unit filename="WeatherRecord.cpp" />
 		<Unit filename="WeatherRecord.h" />
 		<Unit filename="main.cpp" />
