@@ -1,0 +1,7 @@
+<map id="MathUtils::calcPcc" name="MathUtils::calcPcc">
+<area shape="rect" id="node1" title="Calculates the Sample Pearson Correlation Coefficient (sPCC)." alt="" coords="575,42,700,69"/>
+<area shape="rect" id="node2" href="$classWeatherProcessor.html#a2c32a5bc9e100fcf2bb3aecc3273958e" title="Menu Option 3: Displays Sample Pearson Correlation Coefficients (sPCC) for a specific month." alt="" coords="351,5,527,47"/>
+<area shape="rect" id="node5" href="$MathUtilsTest_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="413,71,464,98"/>
+<area shape="rect" id="node3" href="$classWeatherProcessor.html#ac1fdfad85de98a53a2e1d6038f05309c" title="Displays the interactive menu to the user." alt="" coords="104,13,303,39"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,56,39"/>
+</map>

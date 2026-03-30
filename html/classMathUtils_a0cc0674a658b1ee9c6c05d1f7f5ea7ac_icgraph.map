@@ -1,0 +1,7 @@
+<map id="MathUtils::calcMad" name="MathUtils::calcMad">
+<area shape="rect" id="node1" title="Calculates the Mean Absolute Deviation (MAD)." alt="" coords="579,35,709,61"/>
+<area shape="rect" id="node2" href="$MathUtilsTest_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="415,5,466,32"/>
+<area shape="rect" id="node3" href="$classWeatherProcessor.html#acafb1af62eacbccafa2cc825fefa911d" title="Menu Option 4: Writes comprehensive stats (including MAD) to a CSV file." alt="" coords="351,57,531,98"/>
+<area shape="rect" id="node4" href="$classWeatherProcessor.html#ac1fdfad85de98a53a2e1d6038f05309c" title="Displays the interactive menu to the user." alt="" coords="104,64,303,91"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,64,56,91"/>
+</map>

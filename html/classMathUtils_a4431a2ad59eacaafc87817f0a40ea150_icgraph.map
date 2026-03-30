@@ -1,0 +1,11 @@
+<map id="MathUtils::calcMean" name="MathUtils::calcMean">
+<area shape="rect" id="node1" title="Calculates the arithmetic mean." alt="" coords="803,126,940,153"/>
+<area shape="rect" id="node2" href="$classMathUtils.html#ad458d56b46acb136b937c59c1a200674" title="Calculates the Sample Pearson Correlation Coefficient (sPCC)." alt="" coords="602,25,727,51"/>
+<area shape="rect" id="node6" href="$MathUtilsTest_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="413,71,464,98"/>
+<area shape="rect" id="node7" href="$classWeatherProcessor.html#a12b8f174c7209c9c638a2521a9b3811c" title="Menu Option 2: Displays average temp and stdev for each month of a specific year." alt="" coords="351,123,527,164"/>
+<area shape="rect" id="node8" href="$classWeatherProcessor.html#aeec4e737c447adbfb8c0f6d898cce8cb" title="Menu Option 1: Displays average wind speed and stdev for a specific month/year." alt="" coords="577,177,753,219"/>
+<area shape="rect" id="node9" href="$classWeatherProcessor.html#acafb1af62eacbccafa2cc825fefa911d" title="Menu Option 4: Writes comprehensive stats (including MAD) to a CSV file." alt="" coords="575,243,755,284"/>
+<area shape="rect" id="node3" href="$classWeatherProcessor.html#a2c32a5bc9e100fcf2bb3aecc3273958e" title="Menu Option 3: Displays Sample Pearson Correlation Coefficients (sPCC) for a specific month." alt="" coords="351,5,527,47"/>
+<area shape="rect" id="node4" href="$classWeatherProcessor.html#ac1fdfad85de98a53a2e1d6038f05309c" title="Displays the interactive menu to the user." alt="" coords="104,159,303,186"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,159,56,186"/>
+</map>

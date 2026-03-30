@@ -1,0 +1,4 @@
+<map id="Database::~Database" name="Database::~Database">
+<area shape="rect" id="node1" title="Destructor. Safely deletes all heap&#45;allocated WeatherRecords to prevent memory leaks." alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node2" href="$classVector.html#a196e9eedc9a88a48f64e69e39405fa72" title=" " alt="" coords="200,5,291,32"/>
+</map>

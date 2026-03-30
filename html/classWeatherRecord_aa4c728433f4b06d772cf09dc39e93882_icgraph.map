@@ -1,0 +1,10 @@
+<map id="WeatherRecord::getSolarRad" name="WeatherRecord::getSolarRad">
+<area shape="rect" id="node1" title=" " alt="" coords="803,47,993,74"/>
+<area shape="rect" id="node2" href="$classWeatherProcessor.html#a2c32a5bc9e100fcf2bb3aecc3273958e" title="Menu Option 3: Displays Sample Pearson Correlation Coefficients (sPCC) for a specific month." alt="" coords="353,5,529,47"/>
+<area shape="rect" id="node5" href="$classWeatherProcessor.html#a6c20b7a3d9f01bb70691f650bcc80cc3" title="Extracts validated, purely numerical data for a specific month/year." alt="" coords="579,71,755,112"/>
+<area shape="rect" id="node3" href="$classWeatherProcessor.html#ac1fdfad85de98a53a2e1d6038f05309c" title="Displays the interactive menu to the user." alt="" coords="104,111,303,138"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,111,56,138"/>
+<area shape="rect" id="node6" href="$classWeatherProcessor.html#a12b8f174c7209c9c638a2521a9b3811c" title="Menu Option 2: Displays average temp and stdev for each month of a specific year." alt="" coords="353,71,529,112"/>
+<area shape="rect" id="node7" href="$classWeatherProcessor.html#aeec4e737c447adbfb8c0f6d898cce8cb" title="Menu Option 1: Displays average wind speed and stdev for a specific month/year." alt="" coords="353,136,529,177"/>
+<area shape="rect" id="node8" href="$classWeatherProcessor.html#acafb1af62eacbccafa2cc825fefa911d" title="Menu Option 4: Writes comprehensive stats (including MAD) to a CSV file." alt="" coords="351,201,531,243"/>
+</map>

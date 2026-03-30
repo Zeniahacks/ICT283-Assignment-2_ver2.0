@@ -1,0 +1,5 @@
+<map id="WeatherRecord::getTime" name="WeatherRecord::getTime">
+<area shape="rect" id="node1" title=" " alt="" coords="241,31,409,57"/>
+<area shape="rect" id="node2" href="$classWeatherRecord.html#a96728b5c02d42bbe650323b0001aba50" title="Compares two WeatherRecords chronologically." alt="" coords="10,5,189,32"/>
+<area shape="rect" id="node3" href="$classWeatherRecord.html#a2a34fb7dfafdfff7ff82a13dfae8fae3" title="Checks if two WeatherRecords occurred at the exact same Date and Time." alt="" coords="5,56,193,83"/>
+</map>

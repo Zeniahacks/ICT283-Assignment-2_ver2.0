@@ -1,0 +1,4 @@
+<map id="Time::setTime" name="Time::setTime">
+<area shape="rect" id="node1" title="Sets the time with validation." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node2" href="$classTime.html#ab2f573b26c57ebaf7754326ee6bd2edb" title="Helper to validate time components." alt="" coords="160,5,287,32"/>
+</map>

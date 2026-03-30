@@ -1,0 +1,5 @@
+<map id="Database::retrieveMonthData" name="Database::retrieveMonthData">
+<area shape="rect" id="node1" title="Retrieves all weather records for a specific month and year." alt="" coords="5,31,196,57"/>
+<area shape="rect" id="node2" href="$classVector.html#ad688a8a0dfbd07ea63d838058a436f79" title=" " alt="" coords="270,5,374,32"/>
+<area shape="rect" id="node3" href="$classDatabase.html#a8ba63a4bcb8b50eccdd0055b4b315738" title="Helper function to generate a unique integer key for the map." alt="" coords="244,56,400,83"/>
+</map>

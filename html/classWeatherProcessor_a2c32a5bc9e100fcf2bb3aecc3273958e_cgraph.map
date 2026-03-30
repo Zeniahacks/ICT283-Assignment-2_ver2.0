@@ -1,0 +1,15 @@
+<map id="WeatherProcessor::displaySpccStats" name="WeatherProcessor::displaySpccStats">
+<area shape="rect" id="node1" title="Menu Option 3: Displays Sample Pearson Correlation Coefficients (sPCC) for a specific month." alt="" coords="5,259,181,301"/>
+<area shape="rect" id="node2" href="$classMathUtils.html#ad458d56b46acb136b937c59c1a200674" title="Calculates the Sample Pearson Correlation Coefficient (sPCC)." alt="" coords="278,77,403,104"/>
+<area shape="rect" id="node5" href="$classVector.html#a196e9eedc9a88a48f64e69e39405fa72" title=" " alt="" coords="771,52,862,79"/>
+<area shape="rect" id="node6" href="$classWeatherProcessor.html#a6c20b7a3d9f01bb70691f650bcc80cc3" title="Extracts validated, purely numerical data for a specific month/year." alt="" coords="253,259,429,301"/>
+<area shape="rect" id="node7" href="$classWeatherRecord.html#aa4c728433f4b06d772cf09dc39e93882" title=" " alt="" coords="500,128,691,155"/>
+<area shape="rect" id="node8" href="$classWeatherRecord.html#a365a8108f8e49b2aad961a40f034d97e" title=" " alt="" coords="508,179,683,205"/>
+<area shape="rect" id="node9" href="$classWeatherRecord.html#a76da31d226c49d12fff8fc54cba8a48c" title=" " alt="" coords="509,331,681,357"/>
+<area shape="rect" id="node10" href="$classVector.html#ab7f03e6590767248b614a07d352766d3" title=" " alt="" coords="531,381,660,408"/>
+<area shape="rect" id="node11" href="$classDatabase.html#a848df1d2df86907d8fec9ae9ac66e215" title="Retrieves all weather records for a specific month and year." alt="" coords="500,432,691,459"/>
+<area shape="rect" id="node13" href="$classWeatherProcessor.html#a71be964f82a8976c400e184bd3f766de" title="Converts an integer month (1&#45;12) to its string name." alt="" coords="229,477,452,504"/>
+<area shape="rect" id="node3" href="$classMathUtils.html#a4431a2ad59eacaafc87817f0a40ea150" title="Calculates the arithmetic mean." alt="" coords="527,77,664,104"/>
+<area shape="rect" id="node4" href="$classVector.html#ad688a8a0dfbd07ea63d838058a436f79" title=" " alt="" coords="765,280,869,307"/>
+<area shape="rect" id="node12" href="$classDatabase.html#a8ba63a4bcb8b50eccdd0055b4b315738" title="Helper function to generate a unique integer key for the map." alt="" coords="739,432,895,459"/>
+</map>

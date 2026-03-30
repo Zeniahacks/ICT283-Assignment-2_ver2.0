@@ -1,0 +1,9 @@
+<map id="Date::GetYear" name="Date::GetYear">
+<area shape="rect" id="node1" title="Gets the year." alt="" coords="761,56,864,83"/>
+<area shape="rect" id="node2" href="$classDatabase.html#a00b91bd6a1e018dcef38f8787726e2e5" title="Inserts a dynamically allocated weather record into the database." alt="" coords="556,31,713,57"/>
+<area shape="rect" id="node7" href="$DateTest_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="609,81,660,108"/>
+<area shape="rect" id="node3" href="$classDataLoader.html#a10328aebe97783e11ea37b83274b2866" title="Reads data_source.txt and parses the target CSV files." alt="" coords="361,5,508,32"/>
+<area shape="rect" id="node6" href="$DatabaseTest_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="409,56,460,83"/>
+<area shape="rect" id="node4" href="$classWeatherProcessor.html#a39e76af77d3d74739d83db6ddf9f9b22" title="Initializes the database by loading data files." alt="" coords="104,5,313,32"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,56,32"/>
+</map>

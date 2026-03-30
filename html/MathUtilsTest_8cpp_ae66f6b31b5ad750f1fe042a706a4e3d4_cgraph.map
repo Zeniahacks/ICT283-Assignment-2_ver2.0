@@ -1,0 +1,10 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,56,133"/>
+<area shape="rect" id="node2" href="$classMathUtils.html#a0cc0674a658b1ee9c6c05d1f7f5ea7ac" title="Calculates the Mean Absolute Deviation (MAD)." alt="" coords="289,5,420,32"/>
+<area shape="rect" id="node5" href="$classMathUtils.html#a4431a2ad59eacaafc87817f0a40ea150" title="Calculates the arithmetic mean." alt="" coords="286,56,423,83"/>
+<area shape="rect" id="node6" href="$classMathUtils.html#ad458d56b46acb136b937c59c1a200674" title="Calculates the Sample Pearson Correlation Coefficient (sPCC)." alt="" coords="106,107,231,133"/>
+<area shape="rect" id="node7" href="$classMathUtils.html#a48108959f27cd3380e7c3428d1a7d8c3" title="Calculates the sample standard deviation." alt="" coords="281,157,428,184"/>
+<area shape="rect" id="node8" href="$classVector.html#ab7f03e6590767248b614a07d352766d3" title=" " alt="" coords="104,208,233,235"/>
+<area shape="rect" id="node3" href="$classVector.html#ad688a8a0dfbd07ea63d838058a436f79" title=" " alt="" coords="476,19,580,45"/>
+<area shape="rect" id="node4" href="$classVector.html#a196e9eedc9a88a48f64e69e39405fa72" title=" " alt="" coords="483,95,573,121"/>
+</map>

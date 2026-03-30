@@ -1,0 +1,13 @@
+<map id="WeatherProcessor.h" name="WeatherProcessor.h">
+<area shape="rect" id="node1" title=" " alt="" coords="249,5,387,32"/>
+<area shape="rect" id="node2" href="$Database_8h.html" title=" " alt="" coords="153,80,240,107"/>
+<area shape="rect" id="node10" title=" " alt="" coords="336,304,391,331"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,155,52,181"/>
+<area shape="rect" id="node4" href="$Vector_8h.html" title=" " alt="" coords="76,155,147,181"/>
+<area shape="rect" id="node6" href="$Bst_8h.html" title=" " alt="" coords="171,155,222,181"/>
+<area shape="rect" id="node8" href="$WeatherRecord_8h.html" title=" " alt="" coords="246,155,369,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="60,229,136,256"/>
+<area shape="rect" id="node7" title=" " alt="" coords="161,229,233,256"/>
+<area shape="rect" id="node9" href="$Date_8h.html" title=" " alt="" coords="257,229,315,256"/>
+<area shape="rect" id="node11" href="$Time_8h.html" title=" " alt="" coords="340,229,403,256"/>
+</map>

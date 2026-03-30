@@ -1,0 +1,5 @@
+<map id="Time::toSeconds" name="Time::toSeconds">
+<area shape="rect" id="node1" title="Converts time to total seconds since midnight for easy comparison." alt="" coords="181,31,301,57"/>
+<area shape="rect" id="node2" href="$classTime.html#a59a0b94a48a14950cca38b29c78c5ebd" title="Less&#45;than operator for chronological sorting." alt="" coords="10,5,129,32"/>
+<area shape="rect" id="node3" href="$classTime.html#a6641072fd269c2d810b98956f80dacd3" title="Equality operator." alt="" coords="5,56,133,83"/>
+</map>

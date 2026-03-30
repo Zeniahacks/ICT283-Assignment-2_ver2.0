@@ -1,0 +1,7 @@
+<map id="WeatherProcessor" name="WeatherProcessor">
+<area shape="rect" id="node1" title="High&#45;level application controller." alt="" coords="5,1152,192,1347"/>
+<area shape="rect" id="node2" href="$classDatabase.html" title="Central storage and retrieval system for weather data." alt="" coords="15,924,182,1089"/>
+<area shape="rect" id="node3" href="$classBst.html" title=" " alt="" coords="17,535,180,861"/>
+<area shape="rect" id="node4" href="$structBst_1_1Node.html" title="Internal structure to hold data and subtree pointers." alt="" coords="67,5,179,83"/>
+<area shape="rect" id="node5" href="$classBst.html" title="A generic Binary Search Tree implementation." alt="" coords="135,145,297,472"/>
+</map>
