@@ -1,5 +1,5 @@
 <map id="WeatherRecord::getSolarRad" name="WeatherRecord::getSolarRad">
-<area shape="rect" id="node1" title=" " alt="" coords="803,47,993,74"/>
+<area shape="rect" id="node1" title="Gets the Solar Radiation." alt="" coords="803,47,993,74"/>
 <area shape="rect" id="node2" href="$classWeatherProcessor.html#a2c32a5bc9e100fcf2bb3aecc3273958e" title="Menu Option 3: Displays Sample Pearson Correlation Coefficients (sPCC) for a specific month." alt="" coords="353,5,529,47"/>
 <area shape="rect" id="node5" href="$classWeatherProcessor.html#a6c20b7a3d9f01bb70691f650bcc80cc3" title="Extracts validated, purely numerical data for a specific month/year." alt="" coords="579,71,755,112"/>
 <area shape="rect" id="node3" href="$classWeatherProcessor.html#ac1fdfad85de98a53a2e1d6038f05309c" title="Displays the interactive menu to the user." alt="" coords="104,111,303,138"/>

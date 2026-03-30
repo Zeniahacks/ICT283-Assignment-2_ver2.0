@@ -31,11 +31,15 @@ public:
      */
     WeatherRecord(const Date& d, const Time& t, float speed, float temp, float solarRad);
 
-    // Getters
+    /** @brief Gets the Date. @return Date object. */
     Date getDate() const;
+    /** @brief Gets the Time. @return Time object. */
     Time getTime() const;
+    /** @brief Gets the Wind Speed. @return float wind speed in km/h. */
     float getSpeed() const;
+    /** @brief Gets the Ambient Temperature. @return float temperature in degrees C. */
     float getTemp() const;
+    /** @brief Gets the Solar Radiation. @return float solar radiation in W/m2. */
     float getSolarRad() const;
 
     /**

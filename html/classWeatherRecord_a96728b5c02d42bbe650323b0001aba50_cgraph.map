@@ -1,5 +1,5 @@
 <map id="WeatherRecord::operator&lt;" name="WeatherRecord::operator&lt;">
 <area shape="rect" id="node1" title="Compares two WeatherRecords chronologically." alt="" coords="5,31,184,57"/>
-<area shape="rect" id="node2" href="$classWeatherRecord.html#aa70a3cb33acf4b973191882f901df959" title=" " alt="" coords="233,5,399,32"/>
-<area shape="rect" id="node3" href="$classWeatherRecord.html#a2b292f229b6e09f2ba074f4449962336" title=" " alt="" coords="232,56,400,83"/>
+<area shape="rect" id="node2" href="$classWeatherRecord.html#aa70a3cb33acf4b973191882f901df959" title="Gets the Date." alt="" coords="233,5,399,32"/>
+<area shape="rect" id="node3" href="$classWeatherRecord.html#a2b292f229b6e09f2ba074f4449962336" title="Gets the Time." alt="" coords="232,56,400,83"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="WeatherRecord::operator==" name="WeatherRecord::operator==">
 <area shape="rect" id="node1" title="Checks if two WeatherRecords occurred at the exact same Date and Time." alt="" coords="5,31,193,57"/>
-<area shape="rect" id="node2" href="$classWeatherRecord.html#aa70a3cb33acf4b973191882f901df959" title=" " alt="" coords="243,5,408,32"/>
-<area shape="rect" id="node3" href="$classWeatherRecord.html#a2b292f229b6e09f2ba074f4449962336" title=" " alt="" coords="241,56,409,83"/>
+<area shape="rect" id="node2" href="$classWeatherRecord.html#aa70a3cb33acf4b973191882f901df959" title="Gets the Date." alt="" coords="243,5,408,32"/>
+<area shape="rect" id="node3" href="$classWeatherRecord.html#a2b292f229b6e09f2ba074f4449962336" title="Gets the Time." alt="" coords="241,56,409,83"/>
 </map>

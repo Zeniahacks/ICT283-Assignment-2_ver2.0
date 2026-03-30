@@ -1,5 +1,5 @@
 <map id="WeatherRecord::getSpeed" name="WeatherRecord::getSpeed">
-<area shape="rect" id="node1" title=" " alt="" coords="803,78,977,105"/>
+<area shape="rect" id="node1" title="Gets the Wind Speed." alt="" coords="803,78,977,105"/>
 <area shape="rect" id="node2" href="$classWeatherProcessor.html#a2c32a5bc9e100fcf2bb3aecc3273958e" title="Menu Option 3: Displays Sample Pearson Correlation Coefficients (sPCC) for a specific month." alt="" coords="353,5,529,47"/>
 <area shape="rect" id="node5" href="$classWeatherProcessor.html#a6c20b7a3d9f01bb70691f650bcc80cc3" title="Extracts validated, purely numerical data for a specific month/year." alt="" coords="579,71,755,112"/>
 <area shape="rect" id="node9" href="$WeatherRecordTest_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="641,137,692,163"/>

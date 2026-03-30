@@ -65,7 +65,7 @@ bool DataLoader::loadData(const std::string& configFilename, Database& db) {
 
         int recordsLoaded = 0;
 
-        // Process all data lines
+        // Process all data lines in csv file
         while (std::getline(file, line)) {
             Vector<std::string> fields = splitString(line, ',');
             if (fields.size() < headers.size()) continue; // Skip malformed rows
@@ -90,7 +90,7 @@ bool DataLoader::loadData(const std::string& configFilename, Database& db) {
 
                 float speed = -999.0f, temp = -999.0f, sr = -999.0f;
 
-                // FIXED: Restored brackets [speedIdx], [tempIdx], [srIdx]
+                // Restores brackets [speedIdx], [tempIdx], [srIdx]
                 if (speedIdx != -1 && !fields[speedIdx].empty()) speed = std::stof(fields[speedIdx]);
                 if (tempIdx != -1 && !fields[tempIdx].empty()) temp = std::stof(fields[tempIdx]);
                 if (srIdx != -1 && !fields[srIdx].empty()) sr = std::stof(fields[srIdx]);
@@ -98,7 +98,7 @@ bool DataLoader::loadData(const std::string& configFilename, Database& db) {
                 // HEAP ALLOCATION: Create a new object on the heap
                 WeatherRecord* rec = new WeatherRecord(Date(day, month, year), Time(hour, minute, second), speed, temp, sr);
 
-                // Attempt to insert. If it is a duplicate, Database::insertRecord handles the safe deletion.
+                // Attempts to insert. If it is a duplicate, Database::insertRecord handles the safe deletion.
                 if (db.insertRecord(rec)) {
                         recordsLoaded++;
                 }

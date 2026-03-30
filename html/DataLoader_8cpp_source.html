@@ -152,7 +152,7 @@ $(document).ready(function(){initNavTree('DataLoader_8cpp_source.html',''); init
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordtype">int</span> recordsLoaded = 0;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="comment">// Process all data lines</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="comment">// Process all data lines in csv file</span></div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">while</span> (std::getline(file, line)) {</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            <a class="code" href="classVector.html">Vector&lt;std::string&gt;</a> fields = <a class="code" href="classDataLoader.html#ac42d1ae791a27d4bc396c97c1ba07be6">splitString</a>(line, <span class="charliteral">&#39;,&#39;</span>);</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <span class="keywordflow">if</span> (fields.<a class="code" href="classVector.html#a196e9eedc9a88a48f64e69e39405fa72">size</a>() &lt; headers.<a class="code" href="classVector.html#a196e9eedc9a88a48f64e69e39405fa72">size</a>()) <span class="keywordflow">continue</span>; <span class="comment">// Skip malformed rows</span></div>
@@ -177,7 +177,7 @@ $(document).ready(function(){initNavTree('DataLoader_8cpp_source.html',''); init
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                <span class="keywordtype">float</span> speed = -999.0f, temp = -999.0f, sr = -999.0f;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                <span class="comment">// FIXED: Restored brackets [speedIdx], [tempIdx], [srIdx]</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                <span class="comment">// Restores brackets [speedIdx], [tempIdx], [srIdx]</span></div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                <span class="keywordflow">if</span> (speedIdx != -1 &amp;&amp; !fields[speedIdx].empty()) speed = std::stof(fields[speedIdx]);</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                <span class="keywordflow">if</span> (tempIdx != -1 &amp;&amp; !fields[tempIdx].empty()) temp = std::stof(fields[tempIdx]);</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                <span class="keywordflow">if</span> (srIdx != -1 &amp;&amp; !fields[srIdx].empty()) sr = std::stof(fields[srIdx]);</div>
@@ -185,7 +185,7 @@ $(document).ready(function(){initNavTree('DataLoader_8cpp_source.html',''); init
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                <span class="comment">// HEAP ALLOCATION: Create a new object on the heap</span></div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                <a class="code" href="classWeatherRecord.html">WeatherRecord</a>* rec = <span class="keyword">new</span> <a class="code" href="classWeatherRecord.html">WeatherRecord</a>(<a class="code" href="classDate.html">Date</a>(day, month, year), <a class="code" href="classTime.html">Time</a>(hour, minute, second), speed, temp, sr);</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                <span class="comment">// Attempt to insert. If it is a duplicate, Database::insertRecord handles the safe deletion.</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                <span class="comment">// Attempts to insert. If it is a duplicate, Database::insertRecord handles the safe deletion.</span></div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                <span class="keywordflow">if</span> (db.<a class="code" href="classDatabase.html#a00b91bd6a1e018dcef38f8787726e2e5">insertRecord</a>(rec)) {</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                        recordsLoaded++;</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                }</div>

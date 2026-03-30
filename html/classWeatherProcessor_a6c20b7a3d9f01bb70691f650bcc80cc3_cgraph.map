@@ -1,9 +1,9 @@
 <map id="WeatherProcessor::extractMonthData" name="WeatherProcessor::extractMonthData">
 <area shape="rect" id="node1" title="Extracts validated, purely numerical data for a specific month/year." alt="" coords="5,132,181,173"/>
 <area shape="rect" id="node2" href="$classVector.html#ad688a8a0dfbd07ea63d838058a436f79" title=" " alt="" coords="494,89,598,115"/>
-<area shape="rect" id="node3" href="$classWeatherRecord.html#aa4c728433f4b06d772cf09dc39e93882" title=" " alt="" coords="229,38,420,65"/>
-<area shape="rect" id="node4" href="$classWeatherRecord.html#a365a8108f8e49b2aad961a40f034d97e" title=" " alt="" coords="237,89,412,115"/>
-<area shape="rect" id="node5" href="$classWeatherRecord.html#a76da31d226c49d12fff8fc54cba8a48c" title=" " alt="" coords="239,139,411,166"/>
+<area shape="rect" id="node3" href="$classWeatherRecord.html#aa4c728433f4b06d772cf09dc39e93882" title="Gets the Solar Radiation." alt="" coords="229,38,420,65"/>
+<area shape="rect" id="node4" href="$classWeatherRecord.html#a365a8108f8e49b2aad961a40f034d97e" title="Gets the Wind Speed." alt="" coords="237,89,412,115"/>
+<area shape="rect" id="node5" href="$classWeatherRecord.html#a76da31d226c49d12fff8fc54cba8a48c" title="Gets the Ambient Temperature." alt="" coords="239,139,411,166"/>
 <area shape="rect" id="node6" href="$classVector.html#ab7f03e6590767248b614a07d352766d3" title=" " alt="" coords="260,190,389,217"/>
 <area shape="rect" id="node7" href="$classDatabase.html#a848df1d2df86907d8fec9ae9ac66e215" title="Retrieves all weather records for a specific month and year." alt="" coords="229,241,420,267"/>
 <area shape="rect" id="node9" href="$classVector.html#a196e9eedc9a88a48f64e69e39405fa72" title=" " alt="" coords="279,291,370,318"/>

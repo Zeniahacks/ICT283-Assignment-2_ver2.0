@@ -5,7 +5,7 @@
 <area shape="rect" id="node10" href="$classVector.html#a196e9eedc9a88a48f64e69e39405fa72" title=" " alt="" coords="876,309,967,336"/>
 <area shape="rect" id="node12" href="$classDataLoader.html#ac42d1ae791a27d4bc396c97c1ba07be6" title="Helper function to split a string by a delimiter." alt="" coords="459,411,613,437"/>
 <area shape="rect" id="node4" href="$classDatabase.html#a8ba63a4bcb8b50eccdd0055b4b315738" title="Helper function to generate a unique integer key for the map." alt="" coords="667,5,823,32"/>
-<area shape="rect" id="node5" href="$classWeatherRecord.html#aa70a3cb33acf4b973191882f901df959" title=" " alt="" coords="663,56,828,83"/>
+<area shape="rect" id="node5" href="$classWeatherRecord.html#aa70a3cb33acf4b973191882f901df959" title="Gets the Date." alt="" coords="663,56,828,83"/>
 <area shape="rect" id="node6" href="$classDate.html#af2dcc6ce51dbb2bd798499a149bdffb7" title="Gets the month." alt="" coords="689,107,801,133"/>
 <area shape="rect" id="node7" href="$classDate.html#ad79ce504482f317ddcfdc4ecad77671f" title="Gets the year." alt="" coords="694,157,797,184"/>
 <area shape="rect" id="node8" href="$classBst.html#ad509ee364646ce5039ae844d221c3d12" title="Inserts an item into the tree." alt="" coords="705,208,786,235"/>

@@ -1,5 +1,5 @@
 <map id="main" name="main">
 <area shape="rect" id="node1" title=" " alt="" coords="5,31,56,57"/>
-<area shape="rect" id="node2" href="$classWeatherRecord.html#a365a8108f8e49b2aad961a40f034d97e" title=" " alt="" coords="104,5,279,32"/>
-<area shape="rect" id="node3" href="$classWeatherRecord.html#a76da31d226c49d12fff8fc54cba8a48c" title=" " alt="" coords="105,56,277,83"/>
+<area shape="rect" id="node2" href="$classWeatherRecord.html#a365a8108f8e49b2aad961a40f034d97e" title="Gets the Wind Speed." alt="" coords="104,5,279,32"/>
+<area shape="rect" id="node3" href="$classWeatherRecord.html#a76da31d226c49d12fff8fc54cba8a48c" title="Gets the Ambient Temperature." alt="" coords="105,56,277,83"/>
 </map>

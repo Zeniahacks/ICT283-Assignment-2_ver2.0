@@ -208,9 +208,9 @@ Here is the call graph for this function:</div>
 <area shape="rect" href="classMathUtils.html#ad458d56b46acb136b937c59c1a200674" title="Calculates the Sample Pearson Correlation Coefficient (sPCC)." alt="" coords="278,77,403,104"/>
 <area shape="rect" href="classVector.html#a196e9eedc9a88a48f64e69e39405fa72" title=" " alt="" coords="771,52,862,79"/>
 <area shape="rect" href="classWeatherProcessor.html#a6c20b7a3d9f01bb70691f650bcc80cc3" title="Extracts validated, purely numerical data for a specific month/year." alt="" coords="253,259,429,301"/>
-<area shape="rect" href="classWeatherRecord.html#aa4c728433f4b06d772cf09dc39e93882" title=" " alt="" coords="500,128,691,155"/>
-<area shape="rect" href="classWeatherRecord.html#a365a8108f8e49b2aad961a40f034d97e" title=" " alt="" coords="508,179,683,205"/>
-<area shape="rect" href="classWeatherRecord.html#a76da31d226c49d12fff8fc54cba8a48c" title=" " alt="" coords="509,331,681,357"/>
+<area shape="rect" href="classWeatherRecord.html#aa4c728433f4b06d772cf09dc39e93882" title="Gets the Solar Radiation." alt="" coords="500,128,691,155"/>
+<area shape="rect" href="classWeatherRecord.html#a365a8108f8e49b2aad961a40f034d97e" title="Gets the Wind Speed." alt="" coords="508,179,683,205"/>
+<area shape="rect" href="classWeatherRecord.html#a76da31d226c49d12fff8fc54cba8a48c" title="Gets the Ambient Temperature." alt="" coords="509,331,681,357"/>
 <area shape="rect" href="classVector.html#ab7f03e6590767248b614a07d352766d3" title=" " alt="" coords="531,381,660,408"/>
 <area shape="rect" href="classDatabase.html#a848df1d2df86907d8fec9ae9ac66e215" title="Retrieves all weather records for a specific month and year." alt="" coords="500,432,691,459"/>
 <area shape="rect" href="classWeatherProcessor.html#a71be964f82a8976c400e184bd3f766de" title="Converts an integer month (1&#45;12) to its string name." alt="" coords="229,477,452,504"/>
@@ -251,7 +251,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="WeatherProcessor_8cpp_source.html#l00072">72</a> of file <a class="el" href="WeatherProcessor_8cpp_source.html">WeatherProcessor.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MathUtils_8cpp_source.html#l00004">MathUtils::calcMean()</a>, <a class="el" href="MathUtils_8cpp_source.html#l00014">MathUtils::calcStdDev()</a>, <a class="el" href="WeatherProcessor_8cpp_source.html#l00025">extractMonthData()</a>, and <a class="el" href="WeatherProcessor_8cpp_source.html#l00018">getMonthName()</a>.</p>
+<p class="reference">References <a class="el" href="MathUtils_8cpp_source.html#l00004">MathUtils::calcMean()</a>, <a class="el" href="MathUtils_8cpp_source.html#l00014">MathUtils::calcStdDev()</a>, <a class="el" href="Vector_8h_source.html#l00149">Vector&lt; T &gt;::empty()</a>, <a class="el" href="WeatherProcessor_8cpp_source.html#l00025">extractMonthData()</a>, and <a class="el" href="WeatherProcessor_8cpp_source.html#l00018">getMonthName()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="WeatherProcessor_8cpp_source.html#l00182">showMenu()</a>.</p>
 <div class="dynheader">
@@ -259,19 +259,19 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classWeatherProcessor_a12b8f174c7209c9c638a2521a9b3811c_cgraph.png" border="0" usemap="#classWeatherProcessor_a12b8f174c7209c9c638a2521a9b3811c_cgraph" alt=""/></div>
 <map name="classWeatherProcessor_a12b8f174c7209c9c638a2521a9b3811c_cgraph" id="classWeatherProcessor_a12b8f174c7209c9c638a2521a9b3811c_cgraph">
-<area shape="rect" title="Menu Option 2: Displays average temp and stdev for each month of a specific year." alt="" coords="5,101,181,142"/>
-<area shape="rect" href="classMathUtils.html#a4431a2ad59eacaafc87817f0a40ea150" title="Calculates the arithmetic mean." alt="" coords="272,28,409,55"/>
-<area shape="rect" href="classMathUtils.html#a48108959f27cd3380e7c3428d1a7d8c3" title="Calculates the sample standard deviation." alt="" coords="267,79,414,106"/>
-<area shape="rect" href="classWeatherProcessor.html#a6c20b7a3d9f01bb70691f650bcc80cc3" title="Extracts validated, purely numerical data for a specific month/year." alt="" coords="253,130,429,172"/>
-<area shape="rect" href="classWeatherProcessor.html#a71be964f82a8976c400e184bd3f766de" title="Converts an integer month (1&#45;12) to its string name." alt="" coords="229,196,452,223"/>
-<area shape="rect" href="classVector.html#ad688a8a0dfbd07ea63d838058a436f79" title=" " alt="" coords="765,83,869,110"/>
-<area shape="rect" href="classVector.html#a196e9eedc9a88a48f64e69e39405fa72" title=" " alt="" coords="550,32,641,59"/>
-<area shape="rect" href="classWeatherRecord.html#aa4c728433f4b06d772cf09dc39e93882" title=" " alt="" coords="500,134,691,160"/>
-<area shape="rect" href="classWeatherRecord.html#a365a8108f8e49b2aad961a40f034d97e" title=" " alt="" coords="508,184,683,211"/>
-<area shape="rect" href="classWeatherRecord.html#a76da31d226c49d12fff8fc54cba8a48c" title=" " alt="" coords="509,235,681,262"/>
-<area shape="rect" href="classVector.html#ab7f03e6590767248b614a07d352766d3" title=" " alt="" coords="531,286,660,312"/>
-<area shape="rect" href="classDatabase.html#a848df1d2df86907d8fec9ae9ac66e215" title="Retrieves all weather records for a specific month and year." alt="" coords="500,336,691,363"/>
-<area shape="rect" href="classDatabase.html#a8ba63a4bcb8b50eccdd0055b4b315738" title="Helper function to generate a unique integer key for the map." alt="" coords="739,336,895,363"/>
+<area shape="rect" title="Menu Option 2: Displays average temp and stdev for each month of a specific year." alt="" coords="5,93,181,134"/>
+<area shape="rect" href="classMathUtils.html#a4431a2ad59eacaafc87817f0a40ea150" title="Calculates the arithmetic mean." alt="" coords="272,49,409,76"/>
+<area shape="rect" href="classVector.html#ad688a8a0dfbd07ea63d838058a436f79" title=" " alt="" coords="765,79,869,105"/>
+<area shape="rect" href="classMathUtils.html#a48108959f27cd3380e7c3428d1a7d8c3" title="Calculates the sample standard deviation." alt="" coords="267,100,414,127"/>
+<area shape="rect" href="classWeatherProcessor.html#a6c20b7a3d9f01bb70691f650bcc80cc3" title="Extracts validated, purely numerical data for a specific month/year." alt="" coords="253,173,429,214"/>
+<area shape="rect" href="classWeatherProcessor.html#a71be964f82a8976c400e184bd3f766de" title="Converts an integer month (1&#45;12) to its string name." alt="" coords="229,239,452,265"/>
+<area shape="rect" href="classVector.html#a196e9eedc9a88a48f64e69e39405fa72" title=" " alt="" coords="550,79,641,105"/>
+<area shape="rect" href="classWeatherRecord.html#aa4c728433f4b06d772cf09dc39e93882" title="Gets the Solar Radiation." alt="" coords="500,231,691,257"/>
+<area shape="rect" href="classWeatherRecord.html#a365a8108f8e49b2aad961a40f034d97e" title="Gets the Wind Speed." alt="" coords="508,281,683,308"/>
+<area shape="rect" href="classWeatherRecord.html#a76da31d226c49d12fff8fc54cba8a48c" title="Gets the Ambient Temperature." alt="" coords="509,332,681,359"/>
+<area shape="rect" href="classVector.html#ab7f03e6590767248b614a07d352766d3" title=" " alt="" coords="531,383,660,409"/>
+<area shape="rect" href="classDatabase.html#a848df1d2df86907d8fec9ae9ac66e215" title="Retrieves all weather records for a specific month and year." alt="" coords="500,180,691,207"/>
+<area shape="rect" href="classDatabase.html#a8ba63a4bcb8b50eccdd0055b4b315738" title="Helper function to generate a unique integer key for the map." alt="" coords="739,180,895,207"/>
 </map>
 </div>
 <div class="dynheader">
@@ -306,7 +306,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="WeatherProcessor_8cpp_source.html#l00049">49</a> of file <a class="el" href="WeatherProcessor_8cpp_source.html">WeatherProcessor.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="MathUtils_8cpp_source.html#l00004">MathUtils::calcMean()</a>, <a class="el" href="MathUtils_8cpp_source.html#l00014">MathUtils::calcStdDev()</a>, <a class="el" href="WeatherProcessor_8cpp_source.html#l00025">extractMonthData()</a>, and <a class="el" href="WeatherProcessor_8cpp_source.html#l00018">getMonthName()</a>.</p>
+<p class="reference">References <a class="el" href="MathUtils_8cpp_source.html#l00004">MathUtils::calcMean()</a>, <a class="el" href="MathUtils_8cpp_source.html#l00014">MathUtils::calcStdDev()</a>, <a class="el" href="Vector_8h_source.html#l00149">Vector&lt; T &gt;::empty()</a>, <a class="el" href="WeatherProcessor_8cpp_source.html#l00025">extractMonthData()</a>, and <a class="el" href="WeatherProcessor_8cpp_source.html#l00018">getMonthName()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="WeatherProcessor_8cpp_source.html#l00182">showMenu()</a>.</p>
 <div class="dynheader">
@@ -314,19 +314,19 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classWeatherProcessor_aeec4e737c447adbfb8c0f6d898cce8cb_cgraph.png" border="0" usemap="#classWeatherProcessor_aeec4e737c447adbfb8c0f6d898cce8cb_cgraph" alt=""/></div>
 <map name="classWeatherProcessor_aeec4e737c447adbfb8c0f6d898cce8cb_cgraph" id="classWeatherProcessor_aeec4e737c447adbfb8c0f6d898cce8cb_cgraph">
-<area shape="rect" title="Menu Option 1: Displays average wind speed and stdev for a specific month/year." alt="" coords="5,101,181,142"/>
-<area shape="rect" href="classMathUtils.html#a4431a2ad59eacaafc87817f0a40ea150" title="Calculates the arithmetic mean." alt="" coords="272,28,409,55"/>
-<area shape="rect" href="classMathUtils.html#a48108959f27cd3380e7c3428d1a7d8c3" title="Calculates the sample standard deviation." alt="" coords="267,79,414,106"/>
-<area shape="rect" href="classWeatherProcessor.html#a6c20b7a3d9f01bb70691f650bcc80cc3" title="Extracts validated, purely numerical data for a specific month/year." alt="" coords="253,130,429,172"/>
-<area shape="rect" href="classWeatherProcessor.html#a71be964f82a8976c400e184bd3f766de" title="Converts an integer month (1&#45;12) to its string name." alt="" coords="229,196,452,223"/>
-<area shape="rect" href="classVector.html#ad688a8a0dfbd07ea63d838058a436f79" title=" " alt="" coords="765,83,869,110"/>
-<area shape="rect" href="classVector.html#a196e9eedc9a88a48f64e69e39405fa72" title=" " alt="" coords="550,32,641,59"/>
-<area shape="rect" href="classWeatherRecord.html#aa4c728433f4b06d772cf09dc39e93882" title=" " alt="" coords="500,134,691,160"/>
-<area shape="rect" href="classWeatherRecord.html#a365a8108f8e49b2aad961a40f034d97e" title=" " alt="" coords="508,184,683,211"/>
-<area shape="rect" href="classWeatherRecord.html#a76da31d226c49d12fff8fc54cba8a48c" title=" " alt="" coords="509,235,681,262"/>
-<area shape="rect" href="classVector.html#ab7f03e6590767248b614a07d352766d3" title=" " alt="" coords="531,286,660,312"/>
-<area shape="rect" href="classDatabase.html#a848df1d2df86907d8fec9ae9ac66e215" title="Retrieves all weather records for a specific month and year." alt="" coords="500,336,691,363"/>
-<area shape="rect" href="classDatabase.html#a8ba63a4bcb8b50eccdd0055b4b315738" title="Helper function to generate a unique integer key for the map." alt="" coords="739,336,895,363"/>
+<area shape="rect" title="Menu Option 1: Displays average wind speed and stdev for a specific month/year." alt="" coords="5,93,181,134"/>
+<area shape="rect" href="classMathUtils.html#a4431a2ad59eacaafc87817f0a40ea150" title="Calculates the arithmetic mean." alt="" coords="272,49,409,76"/>
+<area shape="rect" href="classVector.html#ad688a8a0dfbd07ea63d838058a436f79" title=" " alt="" coords="765,79,869,105"/>
+<area shape="rect" href="classMathUtils.html#a48108959f27cd3380e7c3428d1a7d8c3" title="Calculates the sample standard deviation." alt="" coords="267,100,414,127"/>
+<area shape="rect" href="classWeatherProcessor.html#a6c20b7a3d9f01bb70691f650bcc80cc3" title="Extracts validated, purely numerical data for a specific month/year." alt="" coords="253,173,429,214"/>
+<area shape="rect" href="classWeatherProcessor.html#a71be964f82a8976c400e184bd3f766de" title="Converts an integer month (1&#45;12) to its string name." alt="" coords="229,239,452,265"/>
+<area shape="rect" href="classVector.html#a196e9eedc9a88a48f64e69e39405fa72" title=" " alt="" coords="550,79,641,105"/>
+<area shape="rect" href="classWeatherRecord.html#aa4c728433f4b06d772cf09dc39e93882" title="Gets the Solar Radiation." alt="" coords="500,231,691,257"/>
+<area shape="rect" href="classWeatherRecord.html#a365a8108f8e49b2aad961a40f034d97e" title="Gets the Wind Speed." alt="" coords="508,281,683,308"/>
+<area shape="rect" href="classWeatherRecord.html#a76da31d226c49d12fff8fc54cba8a48c" title="Gets the Ambient Temperature." alt="" coords="509,332,681,359"/>
+<area shape="rect" href="classVector.html#ab7f03e6590767248b614a07d352766d3" title=" " alt="" coords="531,383,660,409"/>
+<area shape="rect" href="classDatabase.html#a848df1d2df86907d8fec9ae9ac66e215" title="Retrieves all weather records for a specific month and year." alt="" coords="500,180,691,207"/>
+<area shape="rect" href="classDatabase.html#a8ba63a4bcb8b50eccdd0055b4b315738" title="Helper function to generate a unique integer key for the map." alt="" coords="739,180,895,207"/>
 </map>
 </div>
 <div class="dynheader">
@@ -409,9 +409,9 @@ Here is the call graph for this function:</div>
 <map name="classWeatherProcessor_a6c20b7a3d9f01bb70691f650bcc80cc3_cgraph" id="classWeatherProcessor_a6c20b7a3d9f01bb70691f650bcc80cc3_cgraph">
 <area shape="rect" title="Extracts validated, purely numerical data for a specific month/year." alt="" coords="5,132,181,173"/>
 <area shape="rect" href="classVector.html#ad688a8a0dfbd07ea63d838058a436f79" title=" " alt="" coords="494,89,598,115"/>
-<area shape="rect" href="classWeatherRecord.html#aa4c728433f4b06d772cf09dc39e93882" title=" " alt="" coords="229,38,420,65"/>
-<area shape="rect" href="classWeatherRecord.html#a365a8108f8e49b2aad961a40f034d97e" title=" " alt="" coords="237,89,412,115"/>
-<area shape="rect" href="classWeatherRecord.html#a76da31d226c49d12fff8fc54cba8a48c" title=" " alt="" coords="239,139,411,166"/>
+<area shape="rect" href="classWeatherRecord.html#aa4c728433f4b06d772cf09dc39e93882" title="Gets the Solar Radiation." alt="" coords="229,38,420,65"/>
+<area shape="rect" href="classWeatherRecord.html#a365a8108f8e49b2aad961a40f034d97e" title="Gets the Wind Speed." alt="" coords="237,89,412,115"/>
+<area shape="rect" href="classWeatherRecord.html#a76da31d226c49d12fff8fc54cba8a48c" title="Gets the Ambient Temperature." alt="" coords="239,139,411,166"/>
 <area shape="rect" href="classVector.html#ab7f03e6590767248b614a07d352766d3" title=" " alt="" coords="260,190,389,217"/>
 <area shape="rect" href="classDatabase.html#a848df1d2df86907d8fec9ae9ac66e215" title="Retrieves all weather records for a specific month and year." alt="" coords="229,241,420,267"/>
 <area shape="rect" href="classVector.html#a196e9eedc9a88a48f64e69e39405fa72" title=" " alt="" coords="279,291,370,318"/>
@@ -522,7 +522,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" href="classVector.html#a196e9eedc9a88a48f64e69e39405fa72" title=" " alt="" coords="876,309,967,336"/>
 <area shape="rect" href="classDataLoader.html#ac42d1ae791a27d4bc396c97c1ba07be6" title="Helper function to split a string by a delimiter." alt="" coords="459,411,613,437"/>
 <area shape="rect" href="classDatabase.html#a8ba63a4bcb8b50eccdd0055b4b315738" title="Helper function to generate a unique integer key for the map." alt="" coords="667,5,823,32"/>
-<area shape="rect" href="classWeatherRecord.html#aa70a3cb33acf4b973191882f901df959" title=" " alt="" coords="663,56,828,83"/>
+<area shape="rect" href="classWeatherRecord.html#aa70a3cb33acf4b973191882f901df959" title="Gets the Date." alt="" coords="663,56,828,83"/>
 <area shape="rect" href="classDate.html#af2dcc6ce51dbb2bd798499a149bdffb7" title="Gets the month." alt="" coords="689,107,801,133"/>
 <area shape="rect" href="classDate.html#ad79ce504482f317ddcfdc4ecad77671f" title="Gets the year." alt="" coords="694,157,797,184"/>
 <area shape="rect" href="classBst.html#ad509ee364646ce5039ae844d221c3d12" title="Inserts an item into the tree." alt="" coords="705,208,786,235"/>
@@ -570,29 +570,29 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classWeatherProcessor_ac1fdfad85de98a53a2e1d6038f05309c_cgraph.png" border="0" usemap="#classWeatherProcessor_ac1fdfad85de98a53a2e1d6038f05309c_cgraph" alt=""/></div>
 <map name="classWeatherProcessor_ac1fdfad85de98a53a2e1d6038f05309c_cgraph" id="classWeatherProcessor_ac1fdfad85de98a53a2e1d6038f05309c_cgraph">
-<area shape="rect" title="Displays the interactive menu to the user." alt="" coords="5,360,204,387"/>
+<area shape="rect" title="Displays the interactive menu to the user." alt="" coords="5,411,204,437"/>
 <area shape="rect" href="classDatabase.html#a7555f5d03dee3b904c8c375555ac8c5f" title="Prints all years currently loaded in the database." alt="" coords="255,49,429,90"/>
-<area shape="rect" href="classWeatherProcessor.html#a2c32a5bc9e100fcf2bb3aecc3273958e" title="Menu Option 3: Displays Sample Pearson Correlation Coefficients (sPCC) for a specific month." alt="" coords="254,647,430,689"/>
-<area shape="rect" href="classWeatherProcessor.html#a12b8f174c7209c9c638a2521a9b3811c" title="Menu Option 2: Displays average temp and stdev for each month of a specific year." alt="" coords="254,353,430,394"/>
-<area shape="rect" href="classWeatherProcessor.html#aeec4e737c447adbfb8c0f6d898cce8cb" title="Menu Option 1: Displays average wind speed and stdev for a specific month/year." alt="" coords="254,418,430,459"/>
-<area shape="rect" href="classWeatherProcessor.html#acafb1af62eacbccafa2cc825fefa911d" title="Menu Option 4: Writes comprehensive stats (including MAD) to a CSV file." alt="" coords="252,269,432,310"/>
+<area shape="rect" href="classWeatherProcessor.html#a2c32a5bc9e100fcf2bb3aecc3273958e" title="Menu Option 3: Displays Sample Pearson Correlation Coefficients (sPCC) for a specific month." alt="" coords="254,745,430,786"/>
+<area shape="rect" href="classWeatherProcessor.html#a12b8f174c7209c9c638a2521a9b3811c" title="Menu Option 2: Displays average temp and stdev for each month of a specific year." alt="" coords="254,486,430,527"/>
+<area shape="rect" href="classWeatherProcessor.html#aeec4e737c447adbfb8c0f6d898cce8cb" title="Menu Option 1: Displays average wind speed and stdev for a specific month/year." alt="" coords="254,403,430,445"/>
+<area shape="rect" href="classWeatherProcessor.html#acafb1af62eacbccafa2cc825fefa911d" title="Menu Option 4: Writes comprehensive stats (including MAD) to a CSV file." alt="" coords="252,319,432,361"/>
 <area shape="rect" href="classBst.html#ad4c75cf25c64a13cbe00660b358d862e" title="Performs an in&#45;order traversal." alt="" coords="545,5,637,32"/>
 <area shape="rect" href="Database_8cpp.html#a4a9130b90220809c6a26054babf272b8" title=" " alt="" coords="554,56,629,83"/>
-<area shape="rect" href="classMathUtils.html#ad458d56b46acb136b937c59c1a200674" title="Calculates the Sample Pearson Correlation Coefficient (sPCC)." alt="" coords="529,512,654,539"/>
-<area shape="rect" href="classVector.html#a196e9eedc9a88a48f64e69e39405fa72" title=" " alt="" coords="1022,389,1113,416"/>
-<area shape="rect" href="classWeatherProcessor.html#a6c20b7a3d9f01bb70691f650bcc80cc3" title="Extracts validated, purely numerical data for a specific month/year." alt="" coords="503,563,679,605"/>
-<area shape="rect" href="classWeatherRecord.html#aa4c728433f4b06d772cf09dc39e93882" title=" " alt="" coords="751,827,941,853"/>
-<area shape="rect" href="classWeatherRecord.html#a365a8108f8e49b2aad961a40f034d97e" title=" " alt="" coords="759,647,933,673"/>
-<area shape="rect" href="classWeatherRecord.html#a76da31d226c49d12fff8fc54cba8a48c" title=" " alt="" coords="760,705,932,732"/>
-<area shape="rect" href="classVector.html#ab7f03e6590767248b614a07d352766d3" title=" " alt="" coords="781,769,911,796"/>
-<area shape="rect" href="classDatabase.html#a848df1d2df86907d8fec9ae9ac66e215" title="Retrieves all weather records for a specific month and year." alt="" coords="751,592,941,619"/>
-<area shape="rect" href="classWeatherProcessor.html#a71be964f82a8976c400e184bd3f766de" title="Converts an integer month (1&#45;12) to its string name." alt="" coords="480,411,703,437"/>
-<area shape="rect" href="classMathUtils.html#a4431a2ad59eacaafc87817f0a40ea150" title="Calculates the arithmetic mean." alt="" coords="777,339,915,365"/>
-<area shape="rect" href="classVector.html#ad688a8a0dfbd07ea63d838058a436f79" title=" " alt="" coords="1015,339,1119,365"/>
-<area shape="rect" href="classDatabase.html#a8ba63a4bcb8b50eccdd0055b4b315738" title="Helper function to generate a unique integer key for the map." alt="" coords="989,592,1145,619"/>
-<area shape="rect" href="classMathUtils.html#a48108959f27cd3380e7c3428d1a7d8c3" title="Calculates the sample standard deviation." alt="" coords="518,360,665,387"/>
-<area shape="rect" href="classMathUtils.html#a0cc0674a658b1ee9c6c05d1f7f5ea7ac" title="Calculates the Mean Absolute Deviation (MAD)." alt="" coords="781,237,911,264"/>
-<area shape="rect" href="classMathUtils.html#a314eb72a007217073ea29ea9a2727cb3" title="Calculates the sum of all elements." alt="" coords="525,208,657,235"/>
+<area shape="rect" href="classMathUtils.html#ad458d56b46acb136b937c59c1a200674" title="Calculates the Sample Pearson Correlation Coefficient (sPCC)." alt="" coords="529,613,654,640"/>
+<area shape="rect" href="classVector.html#a196e9eedc9a88a48f64e69e39405fa72" title=" " alt="" coords="1022,528,1113,555"/>
+<area shape="rect" href="classWeatherProcessor.html#a6c20b7a3d9f01bb70691f650bcc80cc3" title="Extracts validated, purely numerical data for a specific month/year." alt="" coords="503,715,679,757"/>
+<area shape="rect" href="classWeatherRecord.html#aa4c728433f4b06d772cf09dc39e93882" title="Gets the Solar Radiation." alt="" coords="751,933,941,960"/>
+<area shape="rect" href="classWeatherRecord.html#a365a8108f8e49b2aad961a40f034d97e" title="Gets the Wind Speed." alt="" coords="759,629,933,656"/>
+<area shape="rect" href="classWeatherRecord.html#a76da31d226c49d12fff8fc54cba8a48c" title="Gets the Ambient Temperature." alt="" coords="760,781,932,808"/>
+<area shape="rect" href="classVector.html#ab7f03e6590767248b614a07d352766d3" title=" " alt="" coords="781,883,911,909"/>
+<area shape="rect" href="classDatabase.html#a848df1d2df86907d8fec9ae9ac66e215" title="Retrieves all weather records for a specific month and year." alt="" coords="751,832,941,859"/>
+<area shape="rect" href="classWeatherProcessor.html#a71be964f82a8976c400e184bd3f766de" title="Converts an integer month (1&#45;12) to its string name." alt="" coords="480,461,703,488"/>
+<area shape="rect" href="classMathUtils.html#a4431a2ad59eacaafc87817f0a40ea150" title="Calculates the arithmetic mean." alt="" coords="777,477,915,504"/>
+<area shape="rect" href="classVector.html#ad688a8a0dfbd07ea63d838058a436f79" title=" " alt="" coords="1015,376,1119,403"/>
+<area shape="rect" href="classDatabase.html#a8ba63a4bcb8b50eccdd0055b4b315738" title="Helper function to generate a unique integer key for the map." alt="" coords="989,832,1145,859"/>
+<area shape="rect" href="classMathUtils.html#a48108959f27cd3380e7c3428d1a7d8c3" title="Calculates the sample standard deviation." alt="" coords="518,411,665,437"/>
+<area shape="rect" href="classMathUtils.html#a0cc0674a658b1ee9c6c05d1f7f5ea7ac" title="Calculates the Mean Absolute Deviation (MAD)." alt="" coords="781,325,911,352"/>
+<area shape="rect" href="classMathUtils.html#a314eb72a007217073ea29ea9a2727cb3" title="Calculates the sum of all elements." alt="" coords="525,259,657,285"/>
 </map>
 </div>
 <div class="dynheader">
@@ -643,9 +643,9 @@ Here is the call graph for this function:</div>
 <area shape="rect" href="classWeatherProcessor.html#a6c20b7a3d9f01bb70691f650bcc80cc3" title="Extracts validated, purely numerical data for a specific month/year." alt="" coords="257,271,433,312"/>
 <area shape="rect" href="classWeatherProcessor.html#a71be964f82a8976c400e184bd3f766de" title="Converts an integer month (1&#45;12) to its string name." alt="" coords="233,337,456,363"/>
 <area shape="rect" href="classVector.html#a196e9eedc9a88a48f64e69e39405fa72" title=" " alt="" coords="554,118,645,145"/>
-<area shape="rect" href="classWeatherRecord.html#aa4c728433f4b06d772cf09dc39e93882" title=" " alt="" coords="504,371,695,398"/>
-<area shape="rect" href="classWeatherRecord.html#a365a8108f8e49b2aad961a40f034d97e" title=" " alt="" coords="512,473,687,499"/>
-<area shape="rect" href="classWeatherRecord.html#a76da31d226c49d12fff8fc54cba8a48c" title=" " alt="" coords="513,270,685,297"/>
+<area shape="rect" href="classWeatherRecord.html#aa4c728433f4b06d772cf09dc39e93882" title="Gets the Solar Radiation." alt="" coords="504,371,695,398"/>
+<area shape="rect" href="classWeatherRecord.html#a365a8108f8e49b2aad961a40f034d97e" title="Gets the Wind Speed." alt="" coords="512,473,687,499"/>
+<area shape="rect" href="classWeatherRecord.html#a76da31d226c49d12fff8fc54cba8a48c" title="Gets the Ambient Temperature." alt="" coords="513,270,685,297"/>
 <area shape="rect" href="classVector.html#ab7f03e6590767248b614a07d352766d3" title=" " alt="" coords="535,321,664,347"/>
 <area shape="rect" href="classDatabase.html#a848df1d2df86907d8fec9ae9ac66e215" title="Retrieves all weather records for a specific month and year." alt="" coords="504,422,695,449"/>
 <area shape="rect" href="classDatabase.html#a8ba63a4bcb8b50eccdd0055b4b315738" title="Helper function to generate a unique integer key for the map." alt="" coords="743,422,899,449"/>
