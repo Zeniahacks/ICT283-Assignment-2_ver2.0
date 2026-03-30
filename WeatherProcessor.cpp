@@ -23,7 +23,7 @@ std::string WeatherProcessor::getMonthName(int month) const {
 }
 
 bool WeatherProcessor::extractMonthData(int month, int year, Vector<float>& speeds, Vector<float>& temps, Vector<float>& solar) const {
-    Vector<WeatherRecord*> rawRecords(10);
+    Vector<WeatherRecord*> rawRecords;
 
     if (!db.retrieveMonthData(month, year, rawRecords)) {
         return false;
@@ -53,7 +53,7 @@ void WeatherProcessor::displayWindSpeedStats() const {
     std::cout << "Enter year: ";
     std::cin >> year;
 
-    Vector<float> speeds(100), temps(100), solar(100);
+    Vector<float> speeds, temps, solar;
     bool hasData = extractMonthData(month, year, speeds, temps, solar);
 
     std::cout << getMonthName(month) << " " << year << ":\n";
@@ -76,7 +76,7 @@ void WeatherProcessor::displayTemperatureStats() const {
     std::cout << year << std::endl;
 
     for (int month = 1; month <= 12; ++month) {
-        Vector<float> speeds(100), temps(100), solar(100);
+        Vector<float> speeds, temps, solar;
         extractMonthData(month, year, speeds, temps, solar);
 
         std::cout << getMonthName(month) << ": ";
@@ -97,17 +97,17 @@ void WeatherProcessor::displaySpccStats() const {
 
     // Requirement: Option 3 applies to the specified month across ALL available years.
     // We don't have a direct way to fetch all years easily, so we will scan a reasonable range.
-    Vector<float> allSpeeds(500), allTemps(500), allSolar(500);
+    Vector<float> allSpeeds, allTemps, allSolar;
 
     // Assuming a realistic dataset range for demonstration (e.g., 2000-2030)
     for (int year = 2000; year <= 2030; ++year) {
-        Vector<float> speeds(100), temps(100), solar(100);
+        Vector<float> speeds, temps, solar;
         if (extractMonthData(month, year, speeds, temps, solar)) {
             // Note: sPCC requires paired data. If a specific row is missing one metric,
             // the arrays will misalign. For true sPCC, we must extract them simultaneously.
 
             // To do this safely, we ask the Database for the raw records of that month/year again.
-            Vector<WeatherRecord*> rawRecords(10);
+            Vector<WeatherRecord*> rawRecords;
             if (db.retrieveMonthData(month, year, rawRecords)) {
                 for (int i = 0; i < rawRecords.size(); ++i) {
                     WeatherRecord* rec = rawRecords[i];
@@ -145,7 +145,7 @@ void WeatherProcessor::writeAllStatsToFile() const {
     bool anyData = false;
 
     for (int month = 1; month <= 12; ++month) {
-        Vector<float> speeds(100), temps(100), solar(100);
+        Vector<float> speeds, temps, solar;
         if (extractMonthData(month, year, speeds, temps, solar)) {
             anyData = true;
             outFile << getMonthName(month) << ",";
