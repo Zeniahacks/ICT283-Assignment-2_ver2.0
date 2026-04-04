@@ -1,7 +1,7 @@
 var searchData=
 [
   ['generatekey_40',['generateKey',['../classDatabase.html#a8ba63a4bcb8b50eccdd0055b4b315738',1,'Database']]],
-  ['getdate_41',['getDate',['../classWeatherRecord.html#aa70a3cb33acf4b973191882f901df959',1,'WeatherRecord']]],
+  ['getdate_41',['getDate',['../classWeatherRecord.html#a37ce2554d3c119b341c4d881351841d6',1,'WeatherRecord']]],
   ['getday_42',['GetDay',['../classDate.html#a6304a67f1c13b239eb8e80ad68161e40',1,'Date']]],
   ['gethour_43',['getHour',['../classTime.html#aacb846812dccbf244d52e0f237ad0026',1,'Time']]],
   ['getminute_44',['getMinute',['../classTime.html#a809250b6139afebe7c41a1fe6c857172',1,'Time']]],
@@ -11,6 +11,6 @@ var searchData=
   ['getsolarrad_48',['getSolarRad',['../classWeatherRecord.html#aa4c728433f4b06d772cf09dc39e93882',1,'WeatherRecord']]],
   ['getspeed_49',['getSpeed',['../classWeatherRecord.html#a365a8108f8e49b2aad961a40f034d97e',1,'WeatherRecord']]],
   ['gettemp_50',['getTemp',['../classWeatherRecord.html#a76da31d226c49d12fff8fc54cba8a48c',1,'WeatherRecord']]],
-  ['gettime_51',['getTime',['../classWeatherRecord.html#a2b292f229b6e09f2ba074f4449962336',1,'WeatherRecord']]],
+  ['gettime_51',['getTime',['../classWeatherRecord.html#a240ec6561dcdf10ed58341277884c1ef',1,'WeatherRecord']]],
   ['getyear_52',['GetYear',['../classDate.html#ad79ce504482f317ddcfdc4ecad77671f',1,'Date']]]
 ];
